@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    width: 1200px;
+    height: 1100px;
+    background: #F3F3F3;
+}
+.top{
+    width: 1300px;
+    height: 50px;
+    text-align: right;
+    line-height: 50px;
+}
+p a{text-decoration: none;}
+ p{color: #9C9C9C;}
+
+ p a:link{color: #83336E; }
+   a:visited{color: gray}
+   a:hover{color: #B4709E;}
+   a:active{color: purple}
+.top02{
+    width: 1300px;
+    height: 130px;
+    border: 1px solid green;
+}
+.top02 img{
+    margin-top: 20px;
+    float: left;
+}
+.top201{
+    width: 100%;
+    height: 30px;
+    float: right;
+    line-height: 30px;
+}
+.top201 ul li{
+    float: left;
+    list-style: none;
+}
+.top201 ul li a{
+    font-size: 12px;
+    font-weight: bolder;
+    color:purple;
+    text-decoration: none;
+}
+.top202{
+    width: 700px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+.top202 ul li{
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #893A71;
+    font-weight: bolder;
+    list-style: none;
+    float: left;
+}
+.top202 ul li a{
+    font-size: 12px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.sp01{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.in01{
+    width: 190px;
+    height:25px;
+    border: 1px solid #cccccc;
+}
+.pp{
+    width: 219px;
+    height: 30px;
+    float: right;
+    margin-top: -5px;
+}
+.inp{
+    margin-top: 5px;
+    width: 190px;
+    height: 35px;
+    border: 1px solid black
+}
+#lun {
+    width: 1000px;
+    height: 308px;
+    position: relative;
+    overflow: hidden;
+}
+#lun img {
+    width: 1000px;
+    height: 292px;
+}
+#lun ul {
+    list-style: none;
+    position: absolute;
+    z-index: 1;
+}
+#lun ul li {
+    display: block;
+    float: left;
+}
+#btnleft{
+    width: 30px;
+    height: 40px;
+    background: black;
+    opacity: 0.5;
+    top: 130px;
+    display: none;
+    position: relative;
+    z-index: 10;
+}
+#btnright{
+    width: 30px;
+    height: 40px;
+    background: black;
+    opacity: 0.5;
+    top: 90px;
+    display: none;
+    float: right;
+    position: relative;
+    z-index: 10;
+}
+.wen{
+    width: 100%;
+    height: 500px;
+}
+.p1{
+    font-size: 14px;
+    color: black;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.wen a{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+.wen a:hover{
+    color: purple;
+}
+.wen2{
+    width: 100%;
+    height: 520px;
+    font-size: 12px;
+}
+.wen2 a{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+.wen2 a:hover{
+    color: purple;
+}
+.caret{
+   margin: 10px;
+}
+.a1-1{
+      width:  70px;
+      height: 120px;
+      text-align: center;
+      font-size: 12px;
+      position: absolute;
+      z-index: 5;
+      font-weight: bolder;
+      margin-left: 30px;
+      display: none;
+      background: #cccccc;;
+  }
+.a1-2{
+    width:  70px;
+    height: 150px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    z-index: 5;
+    font-weight: bolder;
+    margin-left: 100px;
+   display: none;
+    background: #cccccc;;
+}
+.a1-3,.a1-7{
+    width:  75px;
+    height:60px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    z-index: 5;
+    font-weight: bolder;
+    margin-left: 170px;
+    display: none;
+    background: #cccccc;;
+}
+.a1-7{
+    margin-left: 420px;
+}
+.a1-4{
+    width:  70px;
+    height: 120px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    z-index: 5;
+    font-weight: bolder;
+    margin-left: 240px;
+    display:none;
+    background: #cccccc;;
+}
+.a1-5,.a1-8,.a1-9{
+    width:  90px;
+    height: 180px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    z-index: 5;
+    font-weight: bolder;
+    margin-left: 310px;
+    display:none ;
+    background: #cccccc;;
+}
+.a1-8{
+    margin-left: 480px;
+}
+.a1-9{
+    margin-left: 600px;
+}
+.a1-6{
+    width:  90px;
+    height: 150px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    z-index: 5;
+    font-weight: bolder;
+    margin-left: 350px;
+    display:none;
+    background: #cccccc;;
+}
+.a1-1 ul li,.a1-2 ul li,.a1-4 ul li{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+}
+.a1-3 ul li,.a1-7 ul li{
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+}
+.a1-5 ul li,.a1-6 ul li,.a1-8 ul li,.a1-9 ul li{
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+}
+.a1-1 ul li a,.a1-2 ul li a,.a1-3 ul li a,.a1-4 ul li a,
+.a1-5 ul li a,.a1-6 ul li a,.a1-7 ul li a,.a1-8 ul li a,.a1-9 ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.bot ul li{
+    margin-left: 10px;
+    margin-right: 5px;
+    list-style: none;
+    float: left;
+}
+.bot ul li a{
+    font-size: 12px;
+    text-decoration: none;
+}
